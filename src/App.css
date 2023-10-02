@@ -1,38 +1,146 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNvY2lhbCUyMG1lZGlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Change the background color to black with some transparency */
+  border-radius: 10px; /* Increase the border-radius for rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increase the box shadow */
+  padding: 30px; /* Increase padding for better spacing */
+  width: 400px; /* Increase the width */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; /* Change the font family */
+  color: white; /* Change the text color to white */
+}
+
+h2 {
+  font-size: 28px; /* Increase the font size */
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increase margin-bottom for better spacing */
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 16px; /* Change the font size for labels */
+  margin-bottom: 5px;
+  color: white; /* Change the text color to white */
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Increase padding for better input size */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px; /* Change the font size for input fields */
+}
+
+button {
+  background-color: #007BFF;
   color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px; /* Increase padding for better button size */
+  cursor: pointer;
+  font-size: 16px; /* Change the font size for buttons */
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  margin-top: 20px; /* Increase margin-top for better spacing */
+  font-size: 14px; /* Change the font size for the paragraph */
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Rest of your CSS remains the same */
+.App {
+  background-image: url('https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Change the background color to black with some transparency */
+  border-radius: 10px; /* Increase the border-radius for rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increase the box shadow */
+  padding: 30px; /* Increase padding for better spacing */
+  width: 400px; /* Increase the width */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; /* Change the font family */
+  color: white; /* Change the text color to white */
+}
+
+/* Rest of your CSS remains the same */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: url('https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Change the background color to black with some transparency */
+  border-radius: 10px; /* Increase the border-radius for rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increase the box shadow */
+  padding: 30px; /* Increase padding for better spacing */
+  width: 400px; /* Increase the width */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; /* Change the font family */
+  color: white; /* Change the text color to white */
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.background-container {
+  background-image: url('https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Push it behind the content */
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Change the background color to black with some transparency */
+  border-radius: 10px; /* Increase the border-radius for rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increase the box shadow */
+  padding: 30px; /* Increase padding for better spacing */
+  width: 400px; /* Increase the width */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; /* Change the font family */
+  color: white; /* Change the text color to white */
+}
+
+/* Rest of your CSS remains the same */
+
+/* Rest of your CSS remains the same */

@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+.navbar-container {
+    background-color: purple;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info p {
+    margin-right: 10px;
+  }
+  
